@@ -1,0 +1,39 @@
+.image-container {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.container-text {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    margin-top: 5rem;
+    text-align: center;
+    background: black;
+    opacity: 0.6;
+    padding: 2rem;
+}
+
+.container-img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+
+    .container-text {
+        width: 90%;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: -2rem;
+        font-size: 15px;
+    }
+    .container-img {
+        width: 100%;
+        height: 15rem;
+    }
+    .container-img img{
+        width: 100%;
+        height: 15rem;
+    }
+}
